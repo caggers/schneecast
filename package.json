@@ -1,5 +1,6 @@
 {
   "name": "rogger-weather",
+  "homepage": "https://caggers1.gitlab.io/schneecast",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
