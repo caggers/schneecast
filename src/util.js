@@ -9,7 +9,7 @@ const HEADERS = {
 };
 
 export function getData(type, resort_id) {
-  console.log(APP_KEY);
+  console.log(APP_ID);
   const URL = `${API}/${type}/${resort_id}?`;
   return axios.get(URL, {
     headers: HEADERS,
