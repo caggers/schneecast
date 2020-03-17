@@ -1,15 +1,15 @@
 import axios from "axios";
 
-const API = "http://api.weatherunlocked.com/api";
+const API = "/api";
 const APP_ID = process.env.REACT_APP_WEATHER_APP_CODE;
 const APP_KEY = process.env.REACT_APP_WEATHER_API_KEY;
 
 const HEADERS = {
-  Accept: "application/json"
+  Accept: "application/json",
+  "Access-Control-Allow-Origin": "*"
 };
 
 export function getData(type, resort_id) {
-  console.log(APP_ID);
   const URL = `${API}/${type}/${resort_id}?`;
   return axios.get(URL, {
     headers: HEADERS,
