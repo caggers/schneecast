@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const API = "/api";
+const API = "http://api.weatherunlocked.com/api";
 const APP_ID = process.env.REACT_APP_WEATHER_APP_CODE;
 const APP_KEY = process.env.REACT_APP_WEATHER_API_KEY;
 
