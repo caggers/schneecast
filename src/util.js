@@ -1,8 +1,8 @@
 import axios from "axios";
 
 const API = "/api";
-const APP_ID = process.env.REACT_APP_WEATHER_APP_CODE;
-const APP_KEY = process.env.REACT_APP_WEATHER_API_KEY;
+const APP_ID = "6f661e4d";
+const APP_KEY = "42b3357840783f5430f920578ca89d05";
 
 const HEADERS = {
   Accept: "application/json",
