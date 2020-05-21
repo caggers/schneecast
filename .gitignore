@@ -2,3 +2,5 @@ node_modules
 build
 .env
 src/setupProxy.js
+# Local Netlify folder
+.netlify
